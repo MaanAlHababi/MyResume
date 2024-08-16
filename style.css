@@ -1,0 +1,188 @@
+:root {
+    --sage-green: #7fa53e;
+    --dusty-blue: #A8B2C1;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: none;
+}
+
+body {
+    margin: auto 40px;
+}
+
+main {
+    max-width: 55%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+h1 {
+    color: var(--sage-green);
+    font-size: 7vh;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+h4 {
+    font-style: normal;
+    color: var(--sage-green);
+    margin-top: 4px;
+    font-weight: lighter;
+    font-size: 3vh;
+}
+
+.attribute, .value {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid var(--sage-green);
+  }
+
+.value span {
+    font-style: italic;
+}
+
+.attribute {
+    font-weight: bold;
+}
+
+.statement p {
+    color: rgb(88, 88, 88);
+    font-size: normal;
+}
+
+hr {
+    border-color: var(--sage-green)
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Tables in Sections */
+
+.contact-info table tr {
+    display: block;
+}
+
+.certifications table, .work-history table, .education table {
+    border-collapse: separate;
+    border-spacing: 20px 6px;
+}
+
+.certifications table tr {
+    margin: 20px;
+}
+
+.date {
+    min-width: 30%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certification, .degree {
+    width: 60%;
+}
+
+.accreditation {
+    display: block;
+    font-size: 0.8rem;
+    opacity: 80%;
+}
+
+.hs-courses {
+    margin: 0;
+}
+
+.hs-courses li {
+    list-style-type:circle;
+    font-size: 0.8rem;
+    opacity: 80%;
+    margin: 8px;
+}
+
+.degree-title {
+    margin-bottom: 2px;
+}
+
+.school {
+    margin: 0;
+    padding: 0;
+}
+
+.skills-and-languages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-and-languages article {
+    width: 45%;
+    padding: 12px;
+}
+
+.skills-and-languages article h4 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.skills-and-languages article h5 {
+    font-size: 2vh;
+    margin: 0;
+}
+
+.progress-background {
+    width: 80%;
+    max-width: 220px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 18px;
+    margin: 8px 16px 12px;
+}
+
+.progress {
+    background-color: var(--sage-green);
+    height: inherit;
+    border-radius: 18px;
+}
+
+.time-management {
+    width: 85%;
+}
+
+.independence {
+    width: 95%;
+}
+
+.keyboarding {
+    width: 82.5%;
+}
+
+.presentation {
+    width: 80%;
+}
+
+.lang-english {
+    width: 87.5%;
+}
+
+.native-label {
+    font-size: 0.7rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lang-arabic {
+    display: none;
+}
+
+.lang, .skill {
+    margin-left: 40px;
+}

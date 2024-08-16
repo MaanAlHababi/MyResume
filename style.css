@@ -18,9 +18,9 @@ main {
     /* background-color: red; */
 }
 
-h1 {
+h2 {
     color: var(--sage-green);
-    font-size: 7vh;
+    font-size: 3rem;
     margin: 0px auto;
     margin-top: 20px;
 }
@@ -29,8 +29,9 @@ h4 {
     font-style: normal;
     color: var(--sage-green);
     margin-top: 4px;
+    margin-bottom: 0;
     font-weight: lighter;
-    font-size: 3vh;
+    font-size: 2rem;
 }
 
 .attribute, .value {
@@ -128,13 +129,13 @@ table tr {
     padding: 12px;
 }
 
-.skills-and-languages article h4 {
-    text-decoration: underline;
-    font-weight: bolder;
+.skills-and-languages article h5 {
+    
+    font-size: 1.6rem;
 }
 
-.skills-and-languages article h5 {
-    font-size: 2vh;
+.skills-and-languages article h6 {
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -185,4 +186,9 @@ table tr {
 
 .lang, .skill {
     margin-left: 40px;
+}
+
+.reference-label {
+    font-size: 0.8rem;
+    opacity: 80%;
 }
